@@ -20,9 +20,6 @@ let addMovie = event => {
     deleteBtn.textContent = "X"
     deleteBtn.addEventListener("click", deleteMovie)
     movie.appendChild(deleteBtn)
-
-    
-
     inputField.value=""
 }
 
